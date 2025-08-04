@@ -51,7 +51,7 @@ def send_packets(ip, port, rate_limit):
     finally:
         sock.close()
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     get_current_time()
     target_ip = get_target_ip()
     target_port = get_target_port()
